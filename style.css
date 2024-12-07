@@ -1,0 +1,44 @@
+*, html {
+    margin: 0;
+}
+
+.fContainer {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    
+}
+
+.bgPly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.bgPly:active {
+    background-color: rgb(71, 71, 71);
+}
+
+.fa-play {
+    font-size: 50px;
+    color: white;
+    margin-left: 8px;
+}
