@@ -19,7 +19,17 @@
     justify-content: center;
     align-items: center;
     background-color: brown;
-    
+}
+
+.btn {
+    background-color: rgb(105, 27, 27);
+    border: none;
+}
+
+.containerTDL {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
 }
 
 .bgPly {
@@ -37,8 +47,18 @@
     background-color: rgb(71, 71, 71);
 }
 
+.fa-backward {
+    font-size: 45px;
+    color:white;
+}
+
 .fa-play {
     font-size: 50px;
     color: white;
     margin-left: 8px;
+}
+
+.fa-forward {
+    font-size: 45px;
+    color:white;
 }
