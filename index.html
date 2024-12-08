@@ -8,20 +8,29 @@
     <title>Music Web</title>
 </head>
 <body class="fContainer">
+    <button class="btn" id="btn">Error Something Wrong!</button>
 
     <div class="container">
-        <h1>Night Changes</h1>
-        <div class="bgPly" id="BtnPly">
-            <i class="fa-solid fa-play"></i>
-        </div>
-
+        <h1>Music Web</h1>
         <progress id="progressBar" value="0" max="100"></progress>
-        
+        <div class="containerTDL">
+            <div class="bgPly" id="backward">
+                <i class="fa-solid fa-backward"></i>
+            </div>
 
+            <div class="bgPly" id="BtnPly">
+                <i class="fa-solid fa-play"></i>
+            </div>
+
+            <div class="bgPly" id="forward">
+                <i class="fa-solid fa-forward"></i>
+            </div>
+        </div>
     </div>
     
     <audio id="suara">
-        <source src="Night Changes.mp3" type="audio/mp3"/>
+        <source id="music1" src="Night Changes.mp3" type="audio/mp3"/>
+        <source id="music2" src="Good Life G-Eazy Kehlani.mp3" type="audio/mp3"/>
     </audio>
 
     <script src="script.js"></script>
